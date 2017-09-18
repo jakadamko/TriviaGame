@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "akbar";
+    src: url("../font/Akbar/akbar.ttf");
+}
+
+.jumbotron {
+    font-family: akbar;
+    color: #fed732;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #4796e5;
+    font-size: 23px;
+}
+
+br {
+    padding: 30px;
+    line-height: 65px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+}
+
+
+
+#display {
+    border: grey solid 2px;
+    font-size: 30px;
+    margin-left: 42%;
+}
+
+.jumbotron p {
+    font-size: 35px;
+    color: #ff3618;
+}
