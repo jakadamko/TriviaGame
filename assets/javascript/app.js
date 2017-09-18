@@ -50,7 +50,7 @@ $(document).ready(function() {
 
             $("#display").html(converted);
 
-            if (converted == "00:10") {
+            if (converted == "01:00") {
                 $(".questions").hide();
                 $(".score").show();
 
