@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     var stopwatch = {
 
-        time: 0,
+        time: 60,
 
         start: function() {
 
@@ -43,14 +43,14 @@ $(document).ready(function() {
 
         count: function() {
 
-            stopwatch.time++;
+            stopwatch.time--;
 
             var converted = stopwatch.timeConverter(stopwatch.time);
             console.log(converted);
 
             $("#display").html(converted);
 
-            if (converted == "01:00") {
+            if (converted == "00:00") {
                 $(".questions").hide();
                 $(".score").show();
 
