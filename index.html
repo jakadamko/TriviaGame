@@ -11,102 +11,15 @@
 </head>
 <div class="container">
     <div class="row">
+        <img id="cloudsPic" src="assets/images/clouds.png" alt="clouds">
+        <img id="cloudsPic2" src="assets/images/clouds.png" alt="clouds">
         <div class="jumbotron">
             <h1>The Simpsons Trivia</h1>
             <button type="button" class="btn btn-secondary btn-lg" id="startGame">Start Game</button>
-            <div class="questions">
-                <br>
-                <div class="col-md-2" id="display">00:00</div>
-                <br>
-                <div>
-                    <p>The Simpsons live on the following street...</p>
-                    <input id="incorr" type="radio" name="Q1" value="male">Woodview Terrace
-                    <input id="incorr" type="radio" name="Q1" value="female">Pine Tree Terrace
-                    <input id="incorr" type="radio" name="Q1" value="other">State Street
-                    <input id="answer" type="radio" name="Q1" value="other">Evergreen Terrace
-                    <br>
-                </div>
-                <br>
-                <div>
-                    <p>Homer Simpsons is a...</p>
-                    <input id="incorr" type="radio" name="Q2" value="male">Telephone Repair Man
-                    <input id="incorr" type="radio" name="Q2" value="female">IRS Collection Agent
-                    <input id="incorr" type="radio" name="Q2" value="other">City Bus Driver
-                    <input id="answer" type="radio" name="Q2" value="other">Nuclear Power Plant Saftey Inspector
-                </div>
-                <br>
-                <div>
-                    <p>Which of the following characters is a non-smoker ?</p>
-                    <input id="incorr" type="radio" name="Q3" value="male">Krusty
-                    <input id="incorr" type="radio" name="Q3" value="female">Nelson
-                    <input id="answer" type="radio" name="Q3" value="other">Grandpa Simpson
-                    <input id="incorr" type="radio" name="Q3" value="other">Mrs. Krabapple
-                </div>
-                <br>
-                <div>
-                    <p>Which of the following names did Bart not use in a prank call to Moe ?</p>
-                    <input id="incorr" type="radio" name="Q4" value="male">Ivana Tinkle
-                    <input id="incorr" type="radio" name="Q4" value="female">Bea O'Problem
-                    <input id="incorr" type="radio" name="Q4" value="other">Amanda Huggenkiss
-                    <input id="answer" type="radio" name="Q4" value="other">Hugh Johnson
-                </div>
-                <br>
-                <div>
-                    <p>
-                        What word is missing in the following quote "_______, is there anything they can't do"</p>
-                    <input id="answer" type="radio" name="Q5" value="male">Doughnuts
-                    <input id="incorr" type="radio" name="Q5" value="female">Kids
-                    <input id="incorr" type="radio" name="Q5" value="other">Computers
-                    <input id="incorr" type="radio" name="Q5" value="other">Women
-                </div>
-                <br>
-                <div>
-                    <p>Who shot Mr. Burns ?</p>
-                    <input id="incorr" type="radio" name="Q6" value="male">Bart
-                    <input id="incorr" type="radio" name="Q6" value="female">Homer
-                    <input id="answer" type="radio" name="Q6" value="other">Maggie
-                    <input id="incorr" type="radio" name="Q6" value="other">Lisa
-                </div>
-                <br>
-                <div>
-                    <p>
-                        How much money did Marge lose on Jeopardy ?</p>
-                    <input id="incorr" type="radio" name="Q7" value="male">$6200
-                    <input id="incorr" type="radio" name="Q7" value="female">$4200
-                    <input id="answer" type="radio" name="Q7" value="other">$5200
-                    <input id="incorr" type="radio" name="Q7" value="other">$3200
-                </div>
-                <br>
-                <div>
-                    <p>Name the cinema in Springfield ?</p>
-                    <input id="answer" type="radio" name="Q8" value="male">Googolplex
-                    <input id="incorr" type="radio" name="Q8" value="female">Monties Movies
-                    <input id="incorr" type="radio" name="Q8" value="other">Mega Movies
-                    <input id="incorr" type="radio" name="Q8" value="other">Springfield Screen
-                </div>
-                <br>
-                <div>
-                    <p>Maggie has never spoken !</p>
-                    <input id="incorr" type="radio" name="Q9" value="male">True
-                    <input id="answer" type="radio" name="Q9" value="female">False
-                </div>
-                <br>
-                <div>
-                    <p>What was the secret ingredient in a Flaming Moe/Homer ?</p>
-                    <input id="incorr" type="radio" name="Q10" value="male">Bleach
-                    <input id="answer" type="radio" name="Q10" value="female">Cough Syrup
-                    <input id="incorr" type="radio" name="Q10" value="other">Denture Cleaner
-                    <input id="incorr" type="radio" name="Q10" value="other">Shampoo
-                </div>
-                <br>
-                <button type="button" class="btn btn-secondary btn-lg" id="done">Done</button>
-            </div>
-            <div class="score">
-                <H2>Times Up!</H2>
-                <p id="correct">CORRECT: 0</p>
-                <p id="incorrect">INCORRECT: 0</p>
-                <p id="unanswered">UNANSWERED: 0</p>
-            </div>
+            <div class="col-md-2" id="display"></div>
+            <div class="questionsDiv"></div>
+            <button type="button" class="btn btn-secondary btn-lg" id="done">Done</button>
+            <div class="score"></div>
         </div>
     </div>
 </div>

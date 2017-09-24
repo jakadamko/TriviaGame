@@ -22,8 +22,6 @@ body {
     background-image: url("../images/background.jpg");
 }
 
-
-
 #display {
     border: grey solid 2px;
     font-size: 28px;
@@ -33,5 +31,61 @@ body {
 
 .jumbotron p {
     font-size: 35px;
-    color: #ff3618;
+    color: #ff2015;
+}
+
+
+
+#cloudsPic {
+    width: 200px;
+    height: 150px;
+    top:283px;
+    left:430px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {left:430px; top:283px;}
+    100%  {left:0px; top:283px;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {left:430px; top:283px;}
+    100%  {left:0px; top:283px;}
+
+}
+
+#cloudsPic2 {
+    width: 200px;
+    height: 150px;
+    top:283px;
+    left:430px;
+    position: relative;
+    -webkit-animation-name: cloudRight; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: cloudRight;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cloudRight {
+    0%   {left:430px; top:283px;}
+    100%  {left:775px; top:283px;}
+
+}
+
+/* Standard syntax */
+@keyframes cloudRight {
+    0%   {left:430px; top:283px;}
+    100%  {left:775px; top:283px;}
+
 }
