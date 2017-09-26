@@ -11,6 +11,8 @@ $(document).ready(function() {
     $(".score").hide();
     $("#display").hide();
     $("#done").hide();
+    $('.jumbotron').css("display","none");
+    $(".jumbotron").fadeIn(3000);
 
     //trivia questions in an array / key with questions/answers/correct index
     var triviaQuestions = {
